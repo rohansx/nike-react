@@ -163,7 +163,7 @@ const Footer = () => {
               <Box className="footer-copyright">
                 <Typography variant="h6" className="footer-copyright-text">
                   Australia
-                  <span>&copy; 2022 Nike, Inc. All Rights Reserved</span>
+                  <span>&copy; 2023 Nike, Inc. All Rights Reserved</span>
                 </Typography>
               </Box>
               <Box className="footer-terms">
