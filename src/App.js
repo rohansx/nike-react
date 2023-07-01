@@ -1,10 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
 import { Typography } from "@mui/material";
 import Footer from "./components/Footer/Footer";
 import NavigationMenu from './components/NavigationMenu/NavigationMenu';
 import WelcomeMessage from './components/Welcome/WelcomeMessage';
-import Promotion from './components/Promotion/Promotion';
+import ProductCard from './components/ProductsCard/ProductsCard';
+import Featured from './components/Featured/Featured';
+// import Promotion from './components/Promotion/Promotion';
 
 
 function App() {
@@ -12,8 +13,10 @@ function App() {
     <>
       <NavigationMenu />
       <WelcomeMessage />
+      {/* <Promotion /> */}
+      {/* <Featured /> */}
+      <ProductCard />
       <Footer />
-      <Promotion />
     </>
   );
 }
